@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Switch Strava units",
+  "description": "Quickly swap between metric and imperial units on Strava",
+  "version": "1.0",
+
+  "permissions": [
+    "tabs",
+    "http://app.strava.com/*"
+  ],
+
+  "background": {"scripts": [
+    "background.js"
+  ]},
+  "page_action": {
+    "default_icon": "images/icon-19.png",
+    "default_title": "Switch units"
+  },
+  "web_accessible_resources": [
+    "inject.js"
+  ]
+}
