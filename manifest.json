@@ -7,7 +7,7 @@
 
   "permissions": [
     "tabs",
-    "http://www.strava.com/*"
+    "http://*.strava.com/*"
   ],
 
   "background": {"scripts": [
