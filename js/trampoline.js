@@ -1,5 +1,5 @@
 var s = document.createElement('script');
-s.src = chrome.extension.getURL("inject.js");
+s.src = chrome.extension.getURL("js/inject.js");
 s.onload = function() {
     this.parentNode.removeChild(this);
 };

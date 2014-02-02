@@ -11,13 +11,13 @@
   ],
 
   "background": {"scripts": [
-    "background.js"
+    "js/background.js"
   ]},
   "page_action": {
     "default_icon": "images/icon-19.png",
     "default_title": "Switch units"
   },
   "web_accessible_resources": [
-    "inject.js"
+    "js/inject.js"
   ]
 }

@@ -5,5 +5,5 @@ chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
 });
 
 chrome.pageAction.onClicked.addListener(function (tab) {
-  chrome.tabs.executeScript(null, {file: "trampoline.js"});
+  chrome.tabs.executeScript(null, {file: "js/trampoline.js"});
 });
